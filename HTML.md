@@ -31,46 +31,5 @@ meu-projeto/
     │   └── banners/      <-- Imagens grandes ou de fundo
     │
     └── includes/         <-- Trechos reutilizáveis (PHP ou template engines)
-
-
-Descrição das Pastas
-assets/
-Diretório principal que centraliza todos os arquivos estáticos e recursos públicos da aplicação.
-
-css/: Contém as folhas de estilo do sistema.
-
-style.css: Estilos gerais, reset e variáveis globais.
-
-components/: Estilos isolados para elementos específicos (ex: header.css, footer.css, cards.css).
-
-vendor/: Bibliotecas de estilo externas sem modificação direta.
-
-js/: Contém scripts e lógica JavaScript.
-
-main.js: Inicializações e scripts globais da aplicação.
-
-components/: Módulos ou scripts específicos de cada componente.
-
-vendor/: Bibliotecas externas de JS.
-
-images/: Armazena todas as mídias visuais do projeto.
-
-icons/: Logotipos pequenos, ícones utilitários e favicons.
-
-banners/: Imagens de fundo e artes de destaque.
-
-includes/: Trechos de código HTML ou PHP reaproveitáveis que formam o layout base (cabeçalhos, rodapés, sidebars).
-
-
----
-
-<!-- index.php -->
-<?php include 'assets/includes/header.php'; ?>
-
-<main>
-    <h1>Conteúdo da Página</h1>
-</main>
-
-<?php include 'assets/includes/footer.php'; ?>
         ├── header.html (ou .php)
         └── footer.html (ou .php)
