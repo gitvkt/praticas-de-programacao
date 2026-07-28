@@ -60,5 +60,17 @@ icons/: Logotipos pequenos, ícones utilitários e favicons.
 banners/: Imagens de fundo e artes de destaque.
 
 includes/: Trechos de código HTML ou PHP reaproveitáveis que formam o layout base (cabeçalhos, rodapés, sidebars).
+
+
+---
+
+<!-- index.php -->
+<?php include 'assets/includes/header.php'; ?>
+
+<main>
+    <h1>Conteúdo da Página</h1>
+</main>
+
+<?php include 'assets/includes/footer.php'; ?>
         ├── header.html (ou .php)
         └── footer.html (ou .php)
