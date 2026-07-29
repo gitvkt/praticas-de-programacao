@@ -54,7 +54,7 @@ Diretório principal que centraliza todos os arquivos estáticos e recursos púb
   * **`banners/`**: Imagens de fundo e artes de destaque.
 * **`includes/`**: Trechos de código HTML ou PHP reaproveitáveis que formam o layout base (cabeçalhos, rodapés, sidebars).
 
-
+```text
 <!-- index.php -->
 <?php include 'assets/includes/header.php'; ?>
 
@@ -64,3 +64,4 @@ Diretório principal que centraliza todos os arquivos estáticos e recursos púb
 
 <?php include 'assets/includes/footer.php'; ?>
 
+````
