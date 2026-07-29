@@ -63,3 +63,4 @@ Diretório principal que centraliza todos os arquivos estáticos e recursos púb
 </main>
 
 <?php include 'assets/includes/footer.php'; ?>
+
