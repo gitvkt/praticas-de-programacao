@@ -1,4 +1,4 @@
-# Estrutura de Pastas - Front-end Web
+# Estrutura de Pastas - Front-end Web - HTML/PHP
 
 Esta é a estrutura de pastas recomendada para a organização de projetos front-end web tradicionais, focando em manutenibilidade, separação de responsabilidades e reutilização de componentes.
 
